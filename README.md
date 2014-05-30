@@ -33,12 +33,9 @@ If you would like to create your own language pack or update the existing one, p
 
 Copyrights for resources used in this theme
 -----------------
-
 * External font from Google Webfonts is used in Theme:
 - Open Sans - http://www.google.com/fonts/specimen/Open+Sans - Droid Sans Mono - http://www.google.com/fonts/specimen/Droid+Sans+Mono License: Apache License Version 2.0 Copyright: Steve Matteson, https://profiles.google.com/107777320916704234605/about
 * The following js-files are used in the Theme:
 - pie.htc in the "js" folder License: Apache License Version 2.0 and GPL Version 3. Copyright: Jason Johnston, https://raw.github.com/lojjic/PIE/master/LICENSE-APACHE2.txt - 'html5.js' file in the "js" folder: License: MIT/GPL2 Licensed Source: https://github.com/aFarkas/html5shiv Copyright: HTML5 Shiv v3.6 | @afarkas @jdalton @jon_neal @rem | - script.js in the "js" folder License: GNU General Public License v2 or later Copyright: the Bestwebsoft team, https://github.com/bestwebsoft
-
 * The following images are used in the "img" folder in the Theme
-
 - "black_block", "searchButton", "select-arrow", "sprites", "square-divider", "top-arrow", "upload-arrow" License: GNU General Public License v2 or later Copyright: the Bestwebsoft team, https://github.com/bestwebsoft Everything else used in this theme has been created by BestWebSoft, especially for the Cafe theme and is distributed under GPL license. 
