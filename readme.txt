@@ -2,8 +2,8 @@
 Contributors: the BestWebSoft team
 Tags: white, red, gray, black, right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready 
 Requires at least: 3.7
-Tested up to: 3.9
-Stable tag: 1.3
+Tested up to: 3.9.1
+Stable tag: 1.4
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Cafe WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -11,7 +11,8 @@ Cafe is distributed under the terms of the GNU GPL
 
 == Description ==
 
-Cafe is a simple theme with a good-looking design and white background by default. It has fixed width of content section, but it is rather wide for displaying lots of content in posts and pages. The theme has light colored widgets in sidebar and dark footer with extra widget-area. It also has two custom widgets. The first one "Recent comments with excerpt" displays not only the author of the comment or post, but also a short part of it, up to 40 characters. The second one "Recent posts with author and category" displays the name of the author and category info in addition to recent post links.
+If you are searching for a theme with an exquisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! 
+Cafe is a streamlined, elegant and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. This way, having installed one of those, not only will you extend your website's functionality considerably, but also avoid any compatibility issues that may occur with other products!
 
 = Features =
 
@@ -119,6 +120,9 @@ Yes, this theme includes widgets. The following widgets are shown by default in 
 
 == Changelog ==
 
+= V1.4 - 10.06.2014 =
+* Update: We checked theme for WordPress 3.9.1 and updated readme.txt.
+
 = V1.3 - 23.04.2014 =
 * Update: Provided instructions on custom widgets.
 
@@ -131,6 +135,9 @@ Yes, this theme includes widgets. The following widgets are shown by default in 
 * Bugfix: Displaying posts with featured-images was fixed.
 
 == Upgrade Notice ==
+
+= V1.4 =
+We checked theme for WordPress 3.9.1 and updated readme.txt.
 
 = V1.3 =
 Provided instructions on custom widgets.
