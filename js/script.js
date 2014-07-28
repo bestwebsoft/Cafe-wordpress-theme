@@ -82,8 +82,6 @@
 				clickCleaner = false;
 				$( selectDiv ).fadeIn( 200 );
 				$( 'html' ).on( 'click', hider);
-				/* Set to choosed item class 'selected' */
-				$( this ).find( '.cafe-select-block .' + $( this ).children( 'h1' ).attr( 'class' ) ).addClass( 'selected' );
 			});				
 			fakeSelect.appendChild( selectDiv );
 			$( val ).after( fakeSelect );
@@ -95,6 +93,13 @@
 			/* category-dropdown widget functional */
 			$( '#cat' ).next( '.cafe-select' ).find( '.cafe-option' ).click( function () {
 				location.href = '?cat=' + $( this ).attr( 'value' );
+			});
+			$( '.cafe-select .cafe-option' ).click( function () {
+				/*remove active option from init select*/
+				$( this ).parent().parent().prev().find( 'option' ).removeAttr( 'selected' );
+				/*add atrr selected to select*/
+				var index = $(this).index();
+				$( this ).parent().parent().prev().find( 'option' ).eq( index ).attr( 'selected', 'selected' );
 			});
 		});	
 
@@ -219,3 +224,28 @@
 		}	
 	});
 } )( jQuery );		
+
+( function( $ ) {
+	$(document).ready(function() {
+		/* Clear select elements */
+		$( 'input:reset' ).click( function() {
+			/* Clear original selects. */
+			$( 'select' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( "option:first" );
+				var clear_selected_select = $( this ).find( "option[selected]" );
+				/* clear active opt */
+				$( clear_selected_select ).removeAttr( 'selected' );
+				$( clear_select ).attr( 'selected', 'selected' );
+			});
+			/* Clear custom selects. */
+			$( 'select' ).each(function() {
+				/* set path */
+				var clear_select = $( this ).find( "option:first" );
+				var clear_selected_select = $( this ).next( ".cafe-select" ).find( "h1:first" );
+				/* clear active opt */
+				$( clear_selected_select ).text( clear_select.text() );
+			});
+		});
+	});
+} )( jQuery );

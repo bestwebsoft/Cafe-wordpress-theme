@@ -3,7 +3,7 @@ Contributors: the BestWebSoft team
 Tags: white, red, gray, black, right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready 
 Requires at least: 3.7
 Tested up to: 3.9.1
-Stable tag: 1.4
+Stable tag: 1.5
 License: GNU General Public License V3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Cafe WordPress Theme, Copyright 2014 BestWebSoft.com
@@ -11,8 +11,7 @@ Cafe is distributed under the terms of the GNU GPL
 
 == Description ==
 
-If you are searching for a theme with an exquisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! 
-Cafe is a streamlined, elegant and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. This way, having installed one of those, not only will you extend your website's functionality considerably, but also avoid any compatibility issues that may occur with other products!
+If you are searching for a theme with an excuisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! Cafe is a streamlined, stylish and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. We believe that Captcha plugin (http://wordpress.org/plugins/captcha/) along with Contact Form (http://wordpress.org/plugins/contact-form-plugin/) will complement your website a great deal, as well as improve its work. This way, having isntalled these, not only will you extend your website's functionality considerably, but also prevent any compatibility issues that may occur with other products! See how this theme may look on your website at http://bestwebsoft.com/wordpress_demo_theme/cafe/
 
 = Features =
 
@@ -120,6 +119,10 @@ Yes, this theme includes widgets. The following widgets are shown by default in 
 
 == Changelog ==
 
+= V1.5 - 22.07.2014 =
+* Update: CSS input slyles were updated.
+* Bugfix: Form custom elements bugs were fixed.
+
 = V1.4 - 10.06.2014 =
 * Update: We checked theme for WordPress 3.9.1 and updated readme.txt.
 
@@ -135,6 +138,9 @@ Yes, this theme includes widgets. The following widgets are shown by default in 
 * Bugfix: Displaying posts with featured-images was fixed.
 
 == Upgrade Notice ==
+
+= V1.5 =
+CSS input slyles were updated. Form custom elements bugs were fixed.
 
 = V1.4 =
 We checked theme for WordPress 3.9.1 and updated readme.txt.

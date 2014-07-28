@@ -3,8 +3,8 @@ Theme Name: Cafe
 Theme URI: http://bestwebsoft.com/theme/cafe
 Author: the BestWebSoft team
 Author URI: https://github.com/bestwebsoft
-Description: Cafe is a simple theme with good-lookig design.
-Version: 1.4
+Description: If you are searching for a theme with an excuisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! Cafe is a streamlined, stylish and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. We believe that Captcha plugin (http://wordpress.org/plugins/captcha/) along with Contact Form (http://wordpress.org/plugins/contact-form-plugin/) will complement your website a great deal, as well as improve its work. This way, having isntalled these, not only will you extend your website's functionality considerably, but also prevent any compatibility issues that may occur with other products! See how this theme may look on your website at http://bestwebsoft.com/wordpress_demo_theme/cafe/
+Version: 1.5
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
 Tags: right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, white, red, gray
@@ -647,6 +647,16 @@ background-color: #F5F6F6;
 	text-decoration: none;
 }
 
+.cafe-entry h2 a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.cafe-entry h2 a:hover {
+	text-decoration: none;
+	color: #e52d25;
+}
+
 .cafe-black-box-with-thumbnail {
 	background: url("images/black-block.png") repeat scroll 0 0 transparent;
 	position: absolute;
@@ -1033,7 +1043,8 @@ input[type="file"] {
 /*== Buttons==*/
 
 input[type="reset"], 
-input[type="submit"] {
+input[type="submit"],
+input[type="button"] {
 	background-color: #363636;
 	border: 0 none;
 	color: #fff;
@@ -1048,7 +1059,8 @@ input[type="submit"] {
 }
 
 input[type="reset"]:hover, 
-input[type="submit"]:hover {
+input[type="submit"]:hover,
+input[type="button"]:hover {
 	background-color: #e52d25;
 }
 
@@ -1160,7 +1172,6 @@ table {
 	width: 100%;
 	border-collapse: collapse;
 	word-spacing: -1px;
-	background: #eee;
 }
 
 table caption,

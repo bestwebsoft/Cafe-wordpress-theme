@@ -485,4 +485,3 @@ add_action( 'widgets_init', 'cafe_initialize_widgets' );
 add_action( 'cafe_post_caption', 'cafe_the_post_caption' );
 add_action( 'cafe_page_navigation', 'cafe_page_nav' );
 add_action( 'cafe_breadcrumb_output', 'cafe_breadcrumb' );
-
