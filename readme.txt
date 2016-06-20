@@ -1,17 +1,19 @@
 === Cafe ===
-Contributors: the BestWebSoft team
-Tags: white, red, gray, black, right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready 
-Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.5
-License: GNU General Public License V3
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
-Cafe WordPress Theme, Copyright 2014 BestWebSoft.com
-Cafe is distributed under the terms of the GNU GPL
+Contributors: BestWebLayout, BestWebSoft
+Author URI: http://bestweblayout.com/
+Donate link: https://www.2checkout.com/checkout/purchase?sid=1430388&quantity=10&product_id=13
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, featured-images, footer-widgets, post-formats, sticky-post, threaded-comments, translation-ready
+Requires at least: 4.2
+Tested up to: 4.5.2
+Stable tag: 1.6
+License: GNU General Public License v3
+License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+Cafe WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Cafe is distributed under the terms of the GNU GPL
 
 == Description ==
 
-If you are searching for a theme with an excuisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! Cafe is a streamlined, stylish and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. We believe that Captcha plugin (http://wordpress.org/plugins/captcha/) along with Contact Form (http://wordpress.org/plugins/contact-form-plugin/) will complement your website a great deal, as well as improve its work. This way, having isntalled these, not only will you extend your website's functionality considerably, but also prevent any compatibility issues that may occur with other products! See how this theme may look on your website at http://bestwebsoft.com/wordpress_demo_theme/cafe/
+If you are searching for a theme with an excuisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! Cafe is a streamlined, stylish and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. We believe that Captcha plugin (http://wordpress.org/plugins/captcha/) along with Contact Form (http://wordpress.org/plugins/contact-form-plugin/) will complement your website a great deal, as well as improve its work. This way, having isntalled these, not only will you extend your website's functionality considerably, but also prevent any compatibility issues that may occur with other products! See how this theme may look on your website at http://wp-demo-theme.bestweblayout.com/cafe/
 
 = Features =
 
@@ -29,7 +31,7 @@ If you are searching for a theme with an excuisite and balanced interface that w
 
 * Russian (ru_RU)
 
-If you would like to create your own language pack or update the existing one, please, send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestwebsoft.com" target="_blank">BestWebSoft</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>
+If you would like to create your own language pack or update the existing one, please, send <a href="http://codex.wordpress.org/Translating_WordPress" target="_blank">the text of PO and MO files</a> for <a href="http://support.bestweblayout.com" target="_blank">BestWebLayout</a> and we'll add it to the plugin. You can download the latest version of the program for work with PO and MO files  <a href="http://www.poedit.net/download.php" target="_blank">Poedit</a>
 
 = Copyrights for resources used in this theme =
 
@@ -107,7 +109,7 @@ Posts and Pages where you have added the Featured images, comment and/or any oth
 
 = How can I change the language from English into Russian? =
 
-In the main catalog of your WordPress site open the file wp-config.php, and change define( ‘WPLANG’, '' ); → define( ‘WPLANG’, ‘ru_RU’ );
+Change the language in the admin settings screen. Settings > General > Site Language.
 
 = Does the theme support widgets? =
 
@@ -118,6 +120,14 @@ Yes, this theme includes widgets. The following widgets are shown by default in 
 1. The Theme Front page.
 
 == Changelog ==
+
+= v1.6 - 20.06.2016 =
+* New:    The 'title-tag' theme support was added.
+* Bugfix: Fixed mismatch coding standards.
+* Update: Unnecessary files category.php and tag.php have been removed.
+* Update: Screenshot was updated to size 1200x900.
+* Update: The theme has been tested for the compatibility with WordPress v.4.5.2.
+* Update: Theme was transferred to new WordPress account.
 
 = V1.5 - 22.07.2014 =
 * Update: CSS input slyles were updated.
@@ -138,6 +148,9 @@ Yes, this theme includes widgets. The following widgets are shown by default in 
 * Bugfix: Displaying posts with featured-images was fixed.
 
 == Upgrade Notice ==
+
+= V1.6 =
+The 'title-tag' theme support was added. Fixed mismatch coding standards. Unnecessary files category.php and tag.php have been removed. Screenshot was updated to size 1200x900. The theme has been tested for the compatibility with WordPress v.4.5.2. Theme was transferred to new WordPress account.
 
 = V1.5 =
 CSS input slyles were updated. Form custom elements bugs were fixed.

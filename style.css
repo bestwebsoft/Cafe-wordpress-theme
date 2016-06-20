@@ -1,107 +1,108 @@
 /*
 Theme Name: Cafe
-Theme URI: http://bestwebsoft.com/theme/cafe
-Author: the BestWebSoft team
-Author URI: https://github.com/bestwebsoft
-Description: If you are searching for a theme with an excuisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! Cafe is a streamlined, stylish and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. We believe that Captcha plugin (http://wordpress.org/plugins/captcha/) along with Contact Form (http://wordpress.org/plugins/contact-form-plugin/) will complement your website a great deal, as well as improve its work. This way, having isntalled these, not only will you extend your website's functionality considerably, but also prevent any compatibility issues that may occur with other products! See how this theme may look on your website at http://bestwebsoft.com/wordpress_demo_theme/cafe/
-Version: 1.5
+Theme URI: http://bestweblayout.com/products/cafe/
+Author: BestWebLayout
+Author URI: http://bestweblayout.com/
+Description: If you are searching for a theme with an excuisite and balanced interface that would highlight the content of your website without being too distracting, we are proud to offer you a solution! Cafe is a streamlined, stylish and professional theme that will serve as a perfect entourage for your ideas. Also, this theme is 100%-compliant with plugins developed by BestWebSoft. We believe that Captcha plugin (http://wordpress.org/plugins/captcha/) along with Contact Form (http://wordpress.org/plugins/contact-form-plugin/) will complement your website a great deal, as well as improve its work. This way, having isntalled these, not only will you extend your website's functionality considerably, but also prevent any compatibility issues that may occur with other products! See how this theme may look on your website at http://wp-demo-theme.bestweblayout.com/cafe/
+Version: 1.6
 License: GNU General Public License v3
 License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
-Tags: right-sidebar, custom-menu, featured-images, sticky-post, threaded-comments, translation-ready, white, red, gray
+Tags: two-columns, right-sidebar, custom-background, custom-header, custom-menu, featured-images, footer-widgets, post-formats, sticky-post, threaded-comments, translation-ready
 Text Domain: cafe
+Cafe WordPress Theme, Copyright 2016 BestWebLayout.com
+Theme Cafe is distributed under the terms of the GNU GPL
 */
-
 
 /**
  * Usual Reset 
  */
 
-html, 
-body, 
-div, 
-span, 
-applet, 
-object, 
-iframe, 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6, 
-p, 
-blockquote, 
-pre, 
-a, 
-abbr, 
-acronym, 
-address, 
-cite, 
-code, 
-del, 
-dfn, 
-em, 
-img, 
-ins, 
-kbd, 
-q, 
-s, 
-samp, 
-small, 
-strike, 
-strong, 
-sub, 
-sup, 
-tt, 
-var, 
-b, 
-u, 
-i, 
-center, 
-dl, 
-dt, 
-dd, 
-ol, 
-ul, 
-li, 
-fieldset, 
-form, 
-label, 
-legend, 
-table, 
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
 caption,
-tbody, 
-tfoot, 
-thead, 
-tr, 
-th, 
-td, 
-article, 
-side, 
-canvas, 
-details, 
-embed, 
-figure, 
-figcaption, 
-footer, 
-header, 
-hgroup, 
-menu, 
-nav, 
-output, 
-ruby, 
-section, 
-summary, 
-time, 
-mark, 
-audio, 
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+side,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
 video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
 	color: inherit;
+	vertical-align: baseline;
+	font-size: 100%;
 }
 
 a {
@@ -110,19 +111,18 @@ a {
 
 /*for browsers that don't have HTML5 support*/
 
-article, 
-aside, 
-details, 
-figcaption, 
-figure, 
-footer, 
-header, 
-hgroup, 
-nav, 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
 section {
 	display: block;
 }
-
 
 /**
  * ==== Fonts ====
@@ -134,9 +134,9 @@ section {
 	font-family: 'open_sansbold';
 	src: url('fonts/Open-Sans/opensans-bold-webfont.eot');
 	src: url('fonts/Open-Sans/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Open-Sans/opensans-bold-webfont.woff') format('woff'),
-		 url('fonts/Open-Sans/opensans-bold-webfont.ttf') format('truetype'),
-		 url('fonts/Open-Sans/opensans-bold-webfont.svg#open_sansbold') format('svg');
+	url('fonts/Open-Sans/opensans-bold-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-bold-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-bold-webfont.svg#open_sansbold') format('svg');
 	font-weight: 700;
 	font-style: normal;
 }
@@ -145,9 +145,9 @@ section {
 	font-family: 'open_sansbold_italic';
 	src: url('fonts/Open-Sans/opensans-bolditalic-webfont.eot');
 	src: url('fonts/Open-Sans/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Open-Sans/opensans-bolditalic-webfont.woff') format('woff'),
-		 url('fonts/Open-Sans/opensans-bolditalic-webfont.ttf') format('truetype'),
-		 url('fonts/Open-Sans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+	url('fonts/Open-Sans/opensans-bolditalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-bolditalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
 	font-weight: 700;
 	font-style: italic;
 }
@@ -156,9 +156,9 @@ section {
 	font-family: 'open_sansextrabold_italic';
 	src: url('fonts/Open-Sans/opensans-extrabolditalic-webfont.eot');
 	src: url('fonts/Open-Sans/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Open-Sans/opensans-extrabolditalic-webfont.woff') format('woff'),
-		 url('fonts/Open-Sans/opensans-extrabolditalic-webfont.ttf') format('truetype'),
-		 url('fonts/Open-Sans/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
+	url('fonts/Open-Sans/opensans-extrabolditalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-extrabolditalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
 	font-weight: 800;
 	font-style: italic;
 }
@@ -167,9 +167,9 @@ section {
 	font-family: 'open_sansitalic';
 	src: url('fonts/Open-Sans/opensans-italic-webfont.eot');
 	src: url('fonts/Open-Sans/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Open-Sans/opensans-italic-webfont.woff') format('woff'),
-		 url('fonts/Open-Sans/opensans-italic-webfont.ttf') format('truetype'),
-		 url('fonts/Open-Sans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+	url('fonts/Open-Sans/opensans-italic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-italic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-italic-webfont.svg#open_sansitalic') format('svg');
 	font-weight: normal;
 	font-style: italic;
 }
@@ -178,9 +178,9 @@ section {
 	font-family: 'open_sansregular';
 	src: url('fonts/Open-Sans/opensans-regular-webfont.eot');
 	src: url('fonts/Open-Sans/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Open-Sans/opensans-regular-webfont.woff') format('woff'),
-		 url('fonts/Open-Sans/opensans-regular-webfont.ttf') format('truetype'),
-		 url('fonts/Open-Sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	url('fonts/Open-Sans/opensans-regular-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-regular-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-regular-webfont.svg#open_sansregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -189,9 +189,9 @@ section {
 	font-family: 'open_sanssemibold_italic';
 	src: url('fonts/Open-Sans/opensans-semibolditalic-webfont.eot');
 	src: url('fonts/Open-Sans/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Open-Sans/opensans-semibolditalic-webfont.woff') format('woff'),
-		 url('fonts/Open-Sans/opensans-semibolditalic-webfont.ttf') format('truetype'),
-		 url('fonts/Open-Sans/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
+	url('fonts/Open-Sans/opensans-semibolditalic-webfont.woff') format('woff'),
+	url('fonts/Open-Sans/opensans-semibolditalic-webfont.ttf') format('truetype'),
+	url('fonts/Open-Sans/opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
 	font-weight: 600;
 	font-style: italic;
 }
@@ -200,63 +200,61 @@ section {
 	font-family: 'droid_sans_monoregular';
 	src: url('fonts/Droid-Sans-Mono/droidsansmono-webfont.eot');
 	src: url('fonts/Droid-Sans-Mono/droidsansmono-webfont.eot?#iefix') format('embedded-opentype'),
-		 url('fonts/Droid-Sans-Mono/droidsansmono-webfont.woff') format('woff'),
-		 url('fonts/Droid-Sans-Mono/droidsansmono-webfont.ttf') format('truetype'),
-		 url('fonts/Droid-Sans-Mono/droidsansmono-webfont.svg#droid_sans_monoregular') format('svg');
+	url('fonts/Droid-Sans-Mono/droidsansmono-webfont.woff') format('woff'),
+	url('fonts/Droid-Sans-Mono/droidsansmono-webfont.ttf') format('truetype'),
+	url('fonts/Droid-Sans-Mono/droidsansmono-webfont.svg#droid_sans_monoregular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
-
 
 /**
  * ==== HEADINGS ====
  */
 
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
+h1,
+h2,
+h3,
+h4,
+h5,
 h6 {
-	font-family: 'open_sansbold', sans-serif;
+	clear: both;
+	color: #424242;
+	text-transform: uppercase;
 	font-weight: 700;
 	font-style: normal;
-	text-transform: uppercase;
-	color: #424242;
-	clear: both;
+	font-family: 'open_sansbold', sans-serif;
 	line-height: normal;
 }
 
 .cafe-entry h1 {
-	font-size: 22px; 
 	margin: 28px 0 18px;
+	font-size: 22px;
 }
 
 .cafe-entry h2 {
-	font-size: 19px; 
 	margin: 19px 0 18px;
+	font-size: 19px;
 }
 
 .cafe-entry h3 {
-	font-size: 17px; 
 	margin: 18px 0 18px;
+	font-size: 17px;
 }
 
 .cafe-entry h4 {
-	font-size: 15px; 
 	margin: 20px 0 20px;
+	font-size: 15px;
 }
 
 .cafe-entry h5 {
-	font-size: 13px; 
 	margin: 20px 0 22px;
+	font-size: 13px;
 }
 
 .cafe-entry h6 {
-	font-size: 10px; 
 	margin: 24px 0 30px;
+	font-size: 10px;
 }
-
 
 /**
  * ==== General styles ====
@@ -266,12 +264,12 @@ h6 {
 }
 
 img {
-	height: auto;
-	max-height: 100%;
 	max-width: 100%;
+	max-height: 100%;
+	height: auto;
 }
 
-iframe, 
+iframe,
 embed,
 object,
 video {
@@ -296,10 +294,9 @@ article.page img {
 
 body {
 	width: 100%;
-	font-family: 'open_sansregular', sans-serif;
 	font-size: 14px;
+	font-family: 'open_sansregular', sans-serif;
 }
-
 
 /**
  * ==== Site wrapper, container, title ====
@@ -310,14 +307,14 @@ body {
 }
 
 .cafe-site-header {
+	position: relative;
 	margin: 0 auto 24px;
 	min-height: 120px;
-	position: relative;
 }
 
 .cafe-site-header-container {
-	padding: 20px 0 0 0;
 	margin: 0 auto;
+	padding: 20px 0 0 0;
 	width: 1140px;
 }
 
@@ -329,9 +326,9 @@ body {
 }
 
 .cafe-clearfix:after {
+	display: table;
 	clear: both;
 	content: "";
-	display: table;
 }
 
 .cafe-site-title-desctiption {
@@ -340,72 +337,71 @@ body {
 }
 
 .cafe-site-title {
+	display: inline-block;
+	padding: 6px 16px 8px 9px;
+	max-width: 100%;
 	background-color: #e52d25;
 	color: #fff;
-	font-size: 56px;
-	font-family: 'open_sansextrabold_italic', sans-serif;
-	font-weight: 800;
-	font-style: italic;
 	text-align: left;
 	text-transform: uppercase;
-	padding: 6px 16px 8px 9px;
-	line-height: 48px;	
 	word-wrap: break-word;
-	display: inline-block;
 	word-break: break-all;
-	max-width: 100%;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 56px;
+	font-family: 'open_sansextrabold_italic', sans-serif;
+	line-height: 48px;
 }
 
 .cafe-site-description {
-	padding-top: 4px; 
+	clear: both;
+	padding-top: 4px;
 	min-height: 12px;
+	max-width: 752px;
 	color: #2c2c2c;
+	text-align: left;
+	text-transform: uppercase;
+	word-spacing: -1px;
+	word-wrap: break-word;
 	font: 14px 'open_sansbold_italic', sans-serif;
 	font-weight: 700;
 	font-style: italic;
-	text-transform: uppercase;
-	text-align: left;
-	clear: both;
-	word-spacing: -1px;
-	word-wrap: break-word;
-	max-width: 752px;
 }
-
 
 /**
  * === MENU begining ===
  */
 
 #cafe-main-menu {
-	padding: 0;
 	float: right;
+	padding: 0;
 	font-size: 0;
 }
 
 #cafe-main-menu ul {
+	position: relative;
+	z-index: 100;
+	display: inline-table;
 	text-transform: uppercase;
 	font: 16px 'open_sansbold', sans-serif;
 	font-weight: 700;
 	font-style: normal;
-	display: inline-table;
-	position: relative;
-	z-index: 100;
 }
 
 #cafe-main-menu li {
-	float: left;
-	list-style: none;
-	margin-bottom: -1px;
 	position: relative;
+	float: left;
+	margin-bottom: -1px;
 	border-bottom: solid 1px #dedddd;
+	list-style: none;
 }
 
 #cafe-main-menu li a {
-	text-decoration: none;
 	display: block;
-	color: #ababab;
 	padding: 18px 24px 16px 28px;
 	border-bottom: 4px solid transparent;
+	color: #ababab;
+	text-decoration: none;
 }
 
 /*red border and text-color on current and hover items*/
@@ -440,10 +436,10 @@ body {
 
 /*hiding and displaying hidden intra menu items*/
 
-#cafe-main-menu ul ul{
-	display: none;
+#cafe-main-menu ul ul {
 	position: absolute;
 	top: 100%;
+	display: none;
 	border: 3px solid #e52d25;
 }
 
@@ -454,12 +450,12 @@ body {
 /*list elements and links*/
 
 #cafe-main-menu ul ul li {
-	min-width: 244px;
-	float: none;
 	position: relative;
-	background: #e52d25;
+	float: none;
 	margin: 0;
+	min-width: 244px;
 	border-bottom: none;
+	background: #e52d25;
 }
 
 #cafe-main-menu ul ul li a {
@@ -486,8 +482,8 @@ body {
 
 #cafe-main-menu ul ul ul {
 	position: absolute;
-	left: -102%;
 	top: 10%;
+	left: -102%;
 }
 
 #cafe-main-menu ul ul ul ul ul,
@@ -501,7 +497,6 @@ body {
 #cafe-main-menu ul ul ul ul ul ul ul ul ul ul ul ul ul ul ul {
 	left: -102%;
 }
-
 
 /**
  * =================
@@ -519,45 +514,44 @@ body {
 /* BREADCRUMS */
 
 .cafe-breadcrumbs {
+	margin: 18px 0 0;
 	min-height: 38px;
-	margin:18px 0 0;
-	font-family: 'open_sansbold', sans-serif;
+	color: #ababab;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: -1px;
 	font-weight: 700;
 	font-style: normal;
-	color: #ababab;
-	text-transform: uppercase;
-	text-decoration: none;
 	font-size: 15.5px;
-	letter-spacing: -1px;
+	font-family: 'open_sansbold', sans-serif;
 	line-height: 1;
 }
 
 .cafe-breadcrumbs a {
+	display: inline-block;
+	border-bottom: 2px solid #d5d5d5;
 	color: #ababab;
-	font-family: 'open_sansbold', sans-serif;
+	text-decoration: none;
 	font-weight: 700;
 	font-style: normal;
-	text-decoration: none;
-	border-bottom: 2px solid #d5d5d5;
-	display: inline-block;
-} 
+	font-family: 'open_sansbold', sans-serif;
+}
 
 .cafe-breadcrumbs div {
 	display: inline-block;
+	border-bottom: 2px solid #a1a1a2;
 	color: #444445;
-	font-family: 'open_sansbold', sans-serif;
+	text-decoration: none;
 	font-weight: 700;
 	font-style: normal;
-	text-decoration: none;
-	border-bottom: 2px solid #a1a1a2;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 .cafe-breadcrumbs span {
 	padding: 0 2px;
 }
 
-
-/* 
+/*
  * ==== MAIN AND SIDEBAR ====
  */
 
@@ -565,8 +559,7 @@ body {
 	width: 100%;
 }
 
-
-/* 
+/*
  * === MAIN CONTENT  ===
  */
 
@@ -579,8 +572,8 @@ article.post,
 article.page,
 article.attachment,
 .entry-content {
-	overflow: hidden;
 	z-index: 0;
+	overflow: hidden;
 	margin-bottom: 30px;
 	background-color: #f5f6f6;
 }
@@ -594,17 +587,17 @@ article.attachment,
 }
 
 .thumbnail-caption-text {
-	font: 14px 'open_sansitalic', sans-serif;
+	padding: 5px 10px;
 	color: #424242;
+	font: 14px 'open_sansitalic', sans-serif;
 	font-weight: normal;
 	font-style: italic;
-	padding: 5px 10px;
 }
 
 .post > .post-heading-section > div {
 	color: #fff;
-	font-size: 16px;
 	text-transform: uppercase;
+	font-size: 16px;
 }
 
 .post .cafe-post-content,
@@ -615,16 +608,16 @@ article.attachment,
 }
 
 .cafe-entry {
-background-color: #F5F6F6;
+	background-color: #F5F6F6;
 }
 
 .cafe-entry p {
-	font-family: 'open_sansregular', sans-serif;
+	margin-bottom: 14px;
+	color: #555655;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 14px;
-	color: #555655;
-	margin-bottom: 14px;
+	font-family: 'open_sansregular', sans-serif;
 }
 
 .cafe-entry img {
@@ -633,9 +626,9 @@ background-color: #F5F6F6;
 
 .post .cafe-entry p strong,
 .page .cafe-entry p strong {
-	font-family: 'open_sansbold', sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 .cafe-entry a {
@@ -653,24 +646,24 @@ background-color: #F5F6F6;
 }
 
 .cafe-entry h2 a:hover {
-	text-decoration: none;
 	color: #e52d25;
+	text-decoration: none;
 }
 
 .cafe-black-box-with-thumbnail {
-	background: url("images/black-block.png") repeat scroll 0 0 transparent;
 	position: absolute;
 	bottom: 0;
-	padding: 11px 30px 15px;
 	z-index: 10;
+	padding: 11px 30px 15px;
 	width: 692px;
+	background: url("images/black-block.png") repeat scroll 0 0 transparent;
 }
 
 .cafe-black-box-no-thumbnail {
-	background: #333;
-	padding: 11px 30px 15px;
 	z-index: 10;
+	padding: 11px 30px 15px;
 	width: 692px;
+	background: #333;
 }
 
 .has-post-thumbnail .entry-title-and-img .wp-post-image {
@@ -683,12 +676,12 @@ background-color: #F5F6F6;
 }
 
 .cafe-post-title {
-	font-family: 'open_sanssemibold_italic', sans-serif;
 	color: #fff;
+	text-transform: uppercase;
 	font-weight: 600;
 	font-style: italic;
-	text-transform: uppercase;
 	font-size: 24px;
+	font-family: 'open_sanssemibold_italic', sans-serif;
 }
 
 .cafe-post-title a {
@@ -698,20 +691,21 @@ background-color: #F5F6F6;
 .cafe-post-metadata {
 	color: #818181;
 	text-transform: uppercase;
-	font-size: 13px;
-	font-family: 'open_sansitalic', sans-serif;
 	font-weight: normal;
 	font-style: italic;
+	font-size: 13px;
+	font-family: 'open_sansitalic', sans-serif;
 }
+
 .cafe-post-metadata a {
 	color: #818181;
 }
 
 .cafe-post-metadata .cafe-post-date,
 .cafe-post-metadata .cafe-post-category {
-	font-family: 'open_sansbold_italic', sans-serif;
 	font-weight: 700;
 	font-style: italic;
+	font-family: 'open_sansbold_italic', sans-serif;
 }
 
 .cafe-post-metadata .cafe-post-date a:hover,
@@ -730,15 +724,15 @@ background-color: #F5F6F6;
 /*--- excerpt ---*/
 
 .cafe-post-excerpt {
-	font-family: 'open_sansregular', sans-serif;
-	font-weight: normal;
-	font-style: normal;
-	text-transform: none;
-	font-size: 12.5px;
-	line-height: 1.8;
-	color: #cfcfcf;
 	display: none;
 	padding: 23px 0 8px;
+	color: #cfcfcf;
+	text-transform: none;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 12.5px;
+	font-family: 'open_sansregular', sans-serif;
+	line-height: 1.8;
 }
 
 .cafe-post-excerpt strong {
@@ -746,10 +740,10 @@ background-color: #F5F6F6;
 }
 
 .cafe-post-excerpt a {
-	font-family: 'open_sansbold', sans-serif;
+	color: #fff;
 	font-weight: 700;
 	font-style: normal;
-	color: #fff;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 .cafe-post-excerpt a:hover {
@@ -774,11 +768,11 @@ background-color: #F5F6F6;
 }
 
 .wp-caption-text {
-	font: 14px 'open_sansitalic', sans-serif;
+	padding: 5px 10px;
 	color: #424242;
+	font: 14px 'open_sansitalic', sans-serif;
 	font-weight: normal;
 	font-style: italic;
-	padding: 5px 10px;
 }
 
 .alignright {
@@ -792,9 +786,9 @@ background-color: #F5F6F6;
 }
 
 .aligncenter {
-	text-align: center;
 	display: block;
 	margin: 0 auto;
+	text-align: center;
 }
 
 /*== List Styles ==*/
@@ -804,26 +798,26 @@ dl {
 }
 
 .cafe-entry dl dt {
-	font-family: 'open_sansbold', sans-serif;
+	color: #424242;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 16px;
-	color: #424242;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 dl dd,
 .cafe-entry ol li,
 .cafe-entry ul li {
-	font-family: 'open_sansregular', sans-serif;
+	color: #555655;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
-	color: #555655;
+	font-family: 'open_sansregular', sans-serif;
 }
 
 .cafe-entry ol {
-	margin-left: 51px;
 	margin-top: 18px;
+	margin-left: 51px;
 	line-height: 1.65em;
 }
 
@@ -852,42 +846,42 @@ fieldset {
 }
 
 input[type="text"] {
+	margin-right: 21px;
+	padding-left: 20px;
 	width: 200px;
 	height: 52px;
-	padding-left: 20px;
-	margin-right: 21px;
-	background-color: #dddcdc;
-	border: 0;
-	color: #666e72;
 	outline: medium none;
+	border: 0;
+	background-color: #dddcdc;
+	color: #666e72;
 }
 
 textarea {
+	margin-bottom: 10px;
+	padding: 10px 5px 5px 20px;
 	width: 195px;
 	height: 96px;
-	padding: 10px 5px 5px 20px;
-	background-color: #dddcdc;
-	border: 0;
-	color: #666e72;
-	margin-bottom: 10px;
 	outline: medium none;
+	border: 0;
+	background-color: #dddcdc;
+	color: #666e72;
 }
 
 textarea:focus,
 input[type="text"]:focus,
 input[type="file"] {
-	background-color: #fff;
 	border: 0;
+	background-color: #fff;
 }
 
 /*== Select ==*/
 
 .cafe-entry select {
+	padding: 15px 0 15px 15px;
 	width: 215px;
 	height: 52px;
-	padding: 15px 0 15px 15px;
-	background-color: #fff;
 	border: 0;
+	background-color: #fff;
 	color: #666e72;
 }
 
@@ -895,43 +889,43 @@ input[type="file"] {
 	display: inline-block;
 	margin-bottom: 8px;
 }
-	
+
 .cafe-select {
-	background: url("images/select-arrow.png") no-repeat scroll right 0 #fff;
-	border: 0 none;
 	display: inline-block;
-	height: 20px;
 	padding: 15px 10px 17px 20px;
 	width: 190px;
+	height: 20px;
+	border: 0 none;
+	background: url("images/select-arrow.png") no-repeat scroll right 0 #fff;
 }
 
 .cafe-select h1 {
-	cursor: default;
+	overflow: hidden;
+	margin: 0;
+	width: 86%;
 	color: #666e72;
+	text-align: left;
 	text-transform: none;
-	font-family: 'open_sansregular', sans-serif;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-spacing: 0;
+	letter-spacing: 0;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
-	margin: 0;
-	letter-spacing: 0;
-	overflow: hidden;
-	text-align: left;
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	width: 86%;
-	word-spacing: 0;
+	font-family: 'open_sansregular', sans-serif;
+	cursor: default;
 }
 
 .cafe-select .cafe-select-block {
-	background-color: #2c2c2c;
-	display: inline-block;
-	height: initial;
-	overflow-y: auto;
 	position: absolute;
+	z-index: 99;
+	display: inline-block;
+	overflow-y: auto;
 	margin: 16px 0 0 -20px;
 	width: 220px;
-	z-index: 99;
+	height: initial;
+	background-color: #2c2c2c;
 }
 
 .cafe-optgroup {
@@ -939,41 +933,38 @@ input[type="file"] {
 }
 
 .cafe-optgroup .cafe-optgroup-h1 {
-	color: #ababab;
 	overflow: hidden;
 	padding: 15px 5px 0 20px;
+	color: #ababab;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	word-spacing: 0;
 }
 
 .cafe-option {
-	color: #666e72;
 	overflow: hidden;
 	padding: 16px 5px 6px 38px;
+	color: #666e72;
 	text-overflow: ellipsis;
 	white-space: pre-wrap;
 	word-spacing: 0;
 }
 
 .cafe-option:hover {
-	color: #fff;
 	background-color: #424242;
+	color: #fff;
 	cursor: pointer;
 }
 
 /*== Radiobuttons ==*/
 
-.cafe-radio {	
+.cafe-radio {
 	display: block;
-	background: url(images/sprites.png) 0 -19px no-repeat transparent;
-	margin-bottom: 16px;
-	margin-top: 1px;
-	margin-left: 29px;
-	margin-right: 8px;
 	float: left;
+	margin: 1px 8px 16px 29px;
 	width: 18px;
 	height: 18px;
+	background: url(images/sprites.png) 0 -19px no-repeat transparent;
 }
 
 .cafe-radio:ACTIVE, .cafe-radio.active:ACTIVE, .cafe-radio.active {
@@ -981,7 +972,7 @@ input[type="file"] {
 }
 
 .cafe-radio:hover {
-	background: url(images/sprites.png) -19px -19px no-repeat ;
+	background: url(images/sprites.png) -19px -19px no-repeat;
 	opacity: 0.5;
 }
 
@@ -993,14 +984,11 @@ input[type="file"] {
 
 .cafe-check {
 	display: block;
-	background: url(images/sprites.png) 0 0 no-repeat ;
-	margin-bottom: 14px;
-	margin-top: 2px;
-	margin-left: 29px;
-	margin-right: 8px;
 	float: left;
+	margin: 2px 8px 14px 29px;
 	width: 18px;
 	height: 18px;
+	background: url(images/sprites.png) 0 0 no-repeat;
 }
 
 .cafe-check:ACTIVE, .cafe-check.active:ACTIVE, .cafe-check.active {
@@ -1008,7 +996,7 @@ input[type="file"] {
 }
 
 .cafe-check:hover {
-	background: url(images/sprites.png) -19px 0 no-repeat ;
+	background: url(images/sprites.png) -19px 0 no-repeat;
 	opacity: 0.5;
 }
 
@@ -1020,17 +1008,17 @@ input[type="file"] {
 
 .cafe-upload-file {
 	display: inline-block;
-	height: 48px;
 	padding: 21px 0 11px;
-	width: 590px
+	width: 590px;
+	height: 48px;
 }
 
 .cafe-upload-file-input {
-	background: url("images/upload-arrow.png") no-repeat scroll 183px -1px #fff;
-	border: none;
 	display: inline-block;
 	padding: 13px 5px 13px 20px;
 	width: 195px;
+	border: none;
+	background: url("images/upload-arrow.png") no-repeat scroll 183px -1px #fff;
 	word-spacing: 0;
 }
 
@@ -1042,28 +1030,27 @@ input[type="file"] {
 
 /*== Buttons==*/
 
-input[type="reset"], 
+input[type="reset"],
 input[type="submit"],
 input[type="button"] {
-	background-color: #363636;
+	margin-top: 9px;
+	margin-right: 10px;
+	margin-left: 0;
+	padding: 13px 13px 16px 13px;
 	border: 0 none;
+	background-color: #363636;
 	color: #fff;
+	text-transform: uppercase;
 	font: normal 15px/23px 'open_sansbold';
 	font-weight: 700;
 	font-style: normal;
-	margin-left: 0;
-	margin-right: 10px;
-	margin-top: 9px;
-	padding: 13px 13px 16px 13px;
-	text-transform: uppercase;
 }
 
-input[type="reset"]:hover, 
+input[type="reset"]:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover {
 	background-color: #e52d25;
 }
-
 
 /*=== Misc Stuff – abbr, acronym, pre, code, sub, sup, etc. ===*/
 
@@ -1073,8 +1060,8 @@ input[type="button"]:hover {
 
 .cafe-entry pre,
 .cafe-entry blockquote {
-	margin-bottom: 18px;
 	margin-top: 18px;
+	margin-bottom: 18px;
 }
 
 sup {
@@ -1085,31 +1072,31 @@ sub {
 	vertical-align: sub;
 }
 
-sup, 
+sup,
 sub {
 	font-size: 0.7em;
 }
 
 pre {
-	background-color: #2c2c2c;
-	font-family: 'droid_sans_monoregular', monospace;
-	font-size: 12px;
 	overflow-x: auto;
-	color: #808080;
 	padding: 22px 28px 28px;
+	background-color: #2c2c2c;
+	color: #808080;
+	font-size: 12px;
+	font-family: 'droid_sans_monoregular', monospace;
 }
 
 code {
-	background-color: #fff;
-	border: 1px dotted #CECECE;
-	color: #999999;
-	font-family: 'droid_sans_monoregular', monospace;
-	font-style: normal;
 	padding: 0 3px;
+	border: 1px dotted #CECECE;
+	background-color: #fff;
+	color: #999999;
+	font-style: normal;
+	font-family: 'droid_sans_monoregular', monospace;
 }
 
-abbr, 
-dfn, 
+abbr,
+dfn,
 acronym {
 	cursor: help;
 }
@@ -1123,67 +1110,67 @@ pre abbr {
 }
 
 cite {
-	font-family: 'open_sansitalic';
 	font-weight: normal;
 	font-style: italic;
+	font-family: 'open_sansitalic';
 }
 
-kbd, 
+kbd,
 tt {
+	padding: 0 3px;
 	background-color: #fff;
 	color: #999999;
-	font-family: 'droid_sans_monoregular', monospace;
 	font-style: normal;
-	padding: 0 3px;
+	font-family: 'droid_sans_monoregular', monospace;
 }
 
 blockquote cite {
-	font-family: 'open_sansitalic', sans-serif;
-	font-weight: normal;
-	font-style: italic;
-	color: #b8b8b8;
-	font-size: 16px;
-	text-transform: none;
 	display: block;
 	margin: 15px;
+	color: #b8b8b8;
+	text-transform: none;
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	font-family: 'open_sansitalic', sans-serif;
 }
 
 .cafe-entry blockquote p,
 blockquote {
 	margin-left: 22px;
-	font-family: 'open_sansbold_italic', sans-serif;
+	width: 412px;
+	color: #2c2c2c;
+	text-transform: uppercase;
 	font-weight: 700;
 	font-style: italic;
 	font-size: 26px;
-	color: #2c2c2c;
-	text-transform: uppercase;
-	width: 412px;
+	font-family: 'open_sansbold_italic', sans-serif;
 	line-height: 1.26;
 }
 
 /*== Tables  ==*/
 
 table {
-	color: #555655;
-	font: 14px "open_sansregular",sans-serif;
-	letter-spacing: 0;
 	margin-top: 0;
-	text-transform: none;
 	width: 100%;
 	border-collapse: collapse;
+	color: #555655;
+	text-transform: none;
 	word-spacing: -1px;
+	letter-spacing: 0;
+	font: 14px "open_sansregular", sans-serif;
 }
 
 table caption,
 table thead {
-	word-spacing: 0;
-	color: #424242;
-	font-family: 'open_sansbold',sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	text-align: center;
 	background: #DDDCDC;
+	color: #424242;
+	text-align: center;
+	word-spacing: 0;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 th,
@@ -1193,13 +1180,13 @@ td {
 }
 
 th {
-	color: #424242;
-	font-family: 'open_sansbold',sans-serif;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	text-align: center;
 	background: #DDDCDC;
+	color: #424242;
+	text-align: center;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 16px;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 .cafe-entry table a {
@@ -1221,10 +1208,10 @@ th {
 }
 
 .gallery-item {
-	float: left;
-	margin: 0 4px 4px 0;
-	overflow: hidden;
 	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 0 4px 4px 0;
 }
 
 .gallery-columns-1.gallery-size-medium,
@@ -1244,37 +1231,37 @@ th {
 .gallery-columns-4 .gallery-item {
 	max-width: 23%;
 	max-width: -webkit-calc(25% - 4px);
-	max-width:         calc(25% - 4px);
+	max-width: calc(25% - 4px);
 }
 
 .gallery-columns-5 .gallery-item {
 	max-width: 19%;
 	max-width: -webkit-calc(20% - 4px);
-	max-width:         calc(20% - 4px);
+	max-width: calc(20% - 4px);
 }
 
 .gallery-columns-6 .gallery-item {
 	max-width: 15%;
 	max-width: -webkit-calc(16.7% - 4px);
-	max-width:         calc(16.7% - 4px);
+	max-width: calc(16.7% - 4px);
 }
 
 .gallery-columns-7 .gallery-item {
 	max-width: 13%;
 	max-width: -webkit-calc(14.28% - 4px);
-	max-width:         calc(14.28% - 4px);
+	max-width: calc(14.28% - 4px);
 }
 
 .gallery-columns-8 .gallery-item {
 	max-width: 11%;
 	max-width: -webkit-calc(12.5% - 4px);
-	max-width:         calc(12.5% - 4px);
+	max-width: calc(12.5% - 4px);
 }
 
 .gallery-columns-9 .gallery-item {
 	max-width: 9%;
 	max-width: -webkit-calc(11.1% - 4px);
-	max-width:         calc(11.1% - 4px);
+	max-width: calc(11.1% - 4px);
 }
 
 .gallery-columns-1 .gallery-item:nth-of-type(1n),
@@ -1290,33 +1277,33 @@ th {
 }
 
 .gallery-caption {
-	background-color: rgba(0, 0, 0, 0.7);
-	box-sizing: border-box;
-	color: #fff;
-	font-size: 14px;
-	line-height: 1.3;
-	margin: 0;
-	max-height: 50%;
-	opacity: 0;
-	padding: 2px 8px 4px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	text-align: left;
-	-webkit-transition: opacity 400ms ease;
-	transition:         opacity 400ms ease;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 2px 8px 4px;
+	max-height: 50%;
 	width: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #fff;
+	text-align: left;
+	font-size: 14px;
+	line-height: 1.3;
+	opacity: 0;
+	-webkit-transition: opacity 400ms ease;
+	transition: opacity 400ms ease;
 }
 
 .gallery-caption:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 49px;
+	width: 100%;
+	height: 100%;
 	box-shadow: 0 -10px 15px #000 inset;
 	content: "";
-	height: 100%;
-	min-height: 49px;
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 100%;
 }
 
 .gallery-item:hover .gallery-caption {
@@ -1334,10 +1321,9 @@ th {
 }
 
 .gallery-item img {
-	margin: 5px;
-	margin-bottom: 2px;
-	height: auto;
+	margin: 5px 5px 2px;
 	max-width: 100%;
+	height: auto;
 }
 
 p.attachment {
@@ -1347,12 +1333,12 @@ p.attachment {
 /*== Tags ==*/
 
 .post .cafe-tags {
-	font-family: 'open_sansregular', sans-serif;
+	margin-top: 18px;
+	color: #b5b5b5;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
-	color: #b5b5b5;
-	margin-top: 18px;
+	font-family: 'open_sansregular', sans-serif;
 }
 
 .post .cafe-tags a {
@@ -1373,19 +1359,19 @@ p.attachment {
 	color: #ababab;
 }
 
-.cafe-nav-link a:hover{
+.cafe-nav-link a:hover {
 	color: #444545;
 }
 
-.post-navigation{
+.post-navigation {
 	word-wrap: break-word;
 }
 
-.post-nav-prev, .post-nav-next{
+.post-nav-prev, .post-nav-next {
 	max-width: 45%;
 }
 
-.post-nav-next{
+.post-nav-next {
 	text-align: right;
 }
 
@@ -1416,16 +1402,16 @@ p.attachment {
 
 .comments {
 	margin: 10px 20px;
-	font-size: 13px;
 	color: #555;
+	font-size: 13px;
 }
 
 .comments header h2 {
-	font-family: 'open_sansbold_italic',sans-serif;
-	font-size: 24px;
-	font-style: italic;
-	font-weight: 600;
 	margin: 5px 0;
+	font-weight: 600;
+	font-style: italic;
+	font-size: 24px;
+	font-family: 'open_sansbold_italic', sans-serif;
 }
 
 .comment-list {
@@ -1437,13 +1423,13 @@ p.attachment {
 }
 
 .comments-nav a {
-	text-decoration: none;
 	color: #ababab;
+	text-decoration: none;
 }
 
 .avatar {
-	margin-right: 15px;
 	float: left;
+	margin-right: 15px;
 	height: auto;
 }
 
@@ -1455,15 +1441,15 @@ p.attachment {
 	margin: -20px -20px 0 -20px;
 	padding-top: 5px;
 	padding-left: 5px;
-	color: #fff;
-	background: #333;
 	min-height: 40px;
+	background: #333;
+	color: #fff;
 }
 
 .comment-author a {
-	font-family: 'open_sanssemibold_italic', sans-serif;
 	color: #999;
 	text-decoration: none;
+	font-family: 'open_sanssemibold_italic', sans-serif;
 }
 
 .comment-author a:hover {
@@ -1471,16 +1457,16 @@ p.attachment {
 }
 
 .comment-meta {
-	border-bottom: 1px solid #999;
 	margin-bottom: 10px;
+	border-bottom: 1px solid #999;
 }
 
 .comment-meta a {
-	color: #555655;
-	font-family: 'open_sansitalic', sans-serif;
-	font-size: 80%;
-	text-decoration: none;
 	padding: 10px;
+	color: #555655;
+	text-decoration: none;
+	font-size: 80%;
+	font-family: 'open_sansitalic', sans-serif;
 }
 
 .reply {
@@ -1489,11 +1475,11 @@ p.attachment {
 
 .reply a {
 	padding: 5px;
-	font-family: 'open_sansregular', sans-serif;
+	color: #b5b5b5;
+	text-decoration: none;
 	font-weight: normal;
 	font-style: normal;
-	text-decoration: none;
-	color: #b5b5b5;
+	font-family: 'open_sansregular', sans-serif;
 }
 
 .comment-meta a:hover,
@@ -1502,16 +1488,16 @@ p.attachment {
 }
 
 .comment-body {
+	margin-bottom: 20px;
 	padding: 20px;
 	background-color: #F5F6F6;
-	margin-bottom: 20px;
 }
 
 .comment-respond {
-	padding: 20px;
-	background-color: #F5F6F6;
 	margin-bottom: 20px;
 	margin-left: 17px;
+	padding: 20px;
+	background-color: #F5F6F6;
 }
 
 .comment-respond h3.comment-reply-title {
@@ -1522,13 +1508,13 @@ p.attachment {
 	margin-bottom: 10px;
 }
 
-.comment-form-comment label{
+.comment-form-comment label {
 	display: block;
 }
 
 .comments blockquote {
-	margin-bottom: 5px;
 	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .comments pre {
@@ -1555,7 +1541,6 @@ p.attachment {
 	height: 225px;
 }
 
-
 /*===================*/
 /* ==== SIDEBAR ==== */
 /*===================*/
@@ -1567,8 +1552,8 @@ p.attachment {
 
 .cafe-sidebar .widget {
 	margin-bottom: 30px;
-	background: #f5f6f6;
 	padding: 25px 28px 20px 29px;
+	background: #f5f6f6;
 	color: #444445;
 	font: 14px 'open_sansregular';
 	font-weight: normal;
@@ -1576,13 +1561,13 @@ p.attachment {
 }
 
 .cafe-sidebar .widget h4 {
-	color: #444445;
 	margin-bottom: 15px;
-	font-family: 'open_sansbold', sans-serif;
+	color: #444445;
+	letter-spacing: -1px;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 16px;
-	letter-spacing: -1px;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 .cafe-sidebar .widget ul {
@@ -1608,10 +1593,10 @@ p.attachment {
 
 .cafe-sidebar .widget_search,
 .widget_search {
-	min-height: 62px;
 	position: relative;
 	margin-bottom: 30px;
 	padding: 0;
+	min-height: 62px;
 }
 
 .widget_search form {
@@ -1619,38 +1604,38 @@ p.attachment {
 }
 
 .widget_search h4 {
-	color: #444445;
 	padding: 25px 28px 0;
+	color: #444445;
 }
 
 .cafe-searchform .screen-reader-text {
-	font: 16px 'open_sansbold', sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: #AAA;
 	position: absolute;
 	z-index: 10;
 	padding: 20px 20px 19px;
+	color: #AAA;
+	font: 16px 'open_sansbold', sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .cafe-searchform input[type="text"] {
-	font: 15.5px 'open_sansbold', sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	color: #AAA;
 	margin: 0;
-	border: none;
-	outline: medium none;
 	padding: 20px 20px 19px;
 	width: 74%;
 	height: 23px;
+	outline: medium none;
+	border: none;
+	color: #AAA;
 	text-transform: uppercase;
+	font: 15.5px 'open_sansbold', sans-serif;
+	font-weight: 700;
+	font-style: normal;
 }
 
 .cafe-footer-widget .cafe-searchform input[type="text"] {
-	font: 12px 'open_sansbold', sans-serif;
 	padding: 10px;
 	width: 74%;
+	font: 12px 'open_sansbold', sans-serif;
 }
 
 .cafe-searchform input[type="text"]:focus {
@@ -1658,56 +1643,56 @@ p.attachment {
 }
 
 #searchSubmit {
-	background: url("images/search-button.png") no-repeat scroll 46% 50% transparent;
-	border: 0 none;
-	border-radius: 0 0 0 0;
-	font-size: 0;
-	line-height: 0;
-	font-weight: 700;
-	font-style: normal;
-	margin: 0;
 	position: absolute;
+	margin: 0;
 	padding: 30px 20px;
 	width: 15.6%;
+	border: 0 none;
+	border-radius: 0 0 0 0;
+	background: url("images/search-button.png") no-repeat scroll 46% 50% transparent;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 0;
+	line-height: 0;
 }
 
 .cafe-footer-widget #searchSubmit {
-	background: url("images/search-button.png") no-repeat scroll 46% 50% transparent;
 	padding: 20px 10px;
+	background: url("images/search-button.png") no-repeat scroll 46% 50% transparent;
 }
 
 /*== Widgets styles ==*/
 
 #wp-calendar caption {
-	background: none repeat scroll 0 0 #333;
-	color: #fff;
 	margin: 0;
 	padding: 9px 0;
+	background: none repeat scroll 0 0 #333;
+	color: #fff;
 }
 
 #wp-calendar tfoot {
-	background: none repeat scroll 0 0 #333;
 	border: medium none;
+	background: none repeat scroll 0 0 #333;
 }
 
 #wp-calendar tfoot td {
-	font-family: 'open_sansbold', sans-serif;
+	color: #fff;
 	font-weight: 700;
 	font-style: normal;
 	font-size: 16px;
-	color: #fff;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 #wp-calendar th,
 #wp-calendar td {
-	text-align: center;
 	border: 1px solid #333;
+	text-align: center;
 }
 
 #wp-calendar tbody td a {
-	font-family: 'open_sansbold', sans-serif;
 	font-weight: 700;
 	font-style: normal;
+	font-family: 'open_sansbold', sans-serif;
 }
 
 #wp-calendar tbody td a:hover {
@@ -1718,37 +1703,36 @@ aside ul ul {
 	padding-left: 20px;
 }
 
-
 /*==================*/
 /* ==== FOOTER ==== */
 /*==================*/
 
 .cafe-site-footer {
 	background: #2c2c2c;
-	font-family: 'open_sansregular', sans-serif;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 0;
+	font-family: 'open_sansregular', sans-serif;
 }
 
 .cafe-footer-widget-area-wrapper {
-	width: 100%;
 	display: inline-block;
 	padding-bottom: 15px;
+	width: 100%;
 }
 
 .cafe-footer-widget-area {
+	margin: auto;
 	width: 1164px;
 	height: 100%;
-	margin: auto;
 }
 
 .cafe-footer-widget-area .widget,
 .cafe-footer-widget {
 	float: left;
-	width: 267px;
-	padding: 0;
 	margin: 34px 12px 0 12px;
+	padding: 0;
+	width: 267px;
 	color: #5c5c5c;
 	font-size: 14px;
 	line-height: 1.65em;
@@ -1756,16 +1740,16 @@ aside ul ul {
 
 .cafe-footer-widget-area .widget h4,
 .cafe-footer-widget h3 {
-	color: #3d3d3d;
 	margin-bottom: 20px;
-	font-size: 17px;
+	color: #3d3d3d;
 	font-weight: normal;
+	font-size: 17px;
 }
 
 .cafe-footer-widget-area .widget li,
 .cafe-footer-widget li {
-	list-style: none;
 	margin-bottom: 20px;
+	list-style: none;
 }
 
 .cafe-footer-widget-area .widget a,
@@ -1792,25 +1776,25 @@ aside ul ul {
 }
 
 .cafe-footer-site-info-area {
-	width: 100%;
 	display: inline-block;
+	width: 100%;
 	background-color: #373737;
 	font-size: 13px;
 }
 
 .cafe-footer-site-info {
-	width: 1140px;
 	clear: both;
-	min-height: 21px;
-	color: #a5a5a5;
 	margin: auto;
+	min-height: 21px;
+	width: 1140px;
+	color: #a5a5a5;
 }
 
 .cafe-footer-site-info span {
-	width: 1067px;
 	display: block;
 	float: left;
 	margin: 20px 0;
+	width: 1067px;
 }
 
 .cafe-footer-site-info a {
@@ -1825,23 +1809,22 @@ aside ul ul {
 	float: right;
 	width: 73px;
 	height: 61px;
-	background: url("images/top-arrow.png") no-repeat scroll 50% 43%;
-	background-color: #2c2c2c;
+	background: #2c2c2c url("images/top-arrow.png") no-repeat scroll 50% 43%;
 }
 
 /*= search results, 404-page =*/
 
 .search-result {
-	padding: 20px;
 	margin-bottom: 30px;
+	padding: 20px;
 	background-color: #F5F6F6;
 }
 
 .page-title {
-	font-size: 26px;
 	color: #333;
-	font-family: 'open_sansbold_italic', sans-serif;
 	font-style: italic;
+	font-size: 26px;
+	font-family: 'open_sansbold_italic', sans-serif;
 }
 
 .page-title span {
@@ -1864,20 +1847,20 @@ aside ul ul {
 /*= BWS Gallery plugin =*/
 
 #container {
-	width: 752px;
 	float: left;
+	width: 752px;
 }
 
 .home_page_title {
 	padding: 15px 30px;
-	word-wrap:break-word;
-	font-family: 'open_sanssemibold_italic', sans-serif;
-	color: #fff;
 	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+	word-wrap: break-word;
 	font-weight: 600;
 	font-style: italic;
-	text-transform: uppercase;
 	font-size: 24px;
+	font-family: 'open_sanssemibold_italic', sans-serif;
 }
 
 #container .gallery_box_single,
@@ -1899,9 +1882,9 @@ aside ul ul {
 }
 
 .gallery_detail_box :first-child {
-	font-size: 18px;
-	font-weight: 800;
 	color: #444445;
+	font-weight: 800;
+	font-size: 18px;
 }
 
 .gllr_image_row {
@@ -1909,26 +1892,26 @@ aside ul ul {
 }
 
 #content .gllr_single_image_text {
-	font-family: 'open_sanssemibold_italic', sans-serif;
 	margin: 4px 0 0;
+	word-wrap: break-word;
 	font-weight: 700;
 	font-style: italic;
-	word-wrap: break-word;
-}	
+	font-family: 'open_sanssemibold_italic', sans-serif;
+}
 
 /*= Portfolio plugin =*/
 
 .page-template-portfolio-php .home_page_title,
 .single-portfolio .home_page_title {
 	padding: 15px 30px;
-	word-wrap:break-word;
-	font-family: 'open_sanssemibold_italic', sans-serif;
-	color: #fff;
 	background: #333;
+	color: #fff;
+	text-transform: uppercase;
+	word-wrap: break-word;
 	font-weight: 600;
 	font-style: italic;
-	text-transform: uppercase;
 	font-size: 24px;
+	font-family: 'open_sanssemibold_italic', sans-serif;
 }
 
 .portfolio_thumb {
@@ -1936,19 +1919,19 @@ aside ul ul {
 }
 
 .entry-content img,
-.entry-content div, 
-.comment-body img, 
-.comment-body div, 
+.entry-content div,
+.comment-body img,
+.comment-body div,
 #commentspopup div {
-	height: auto;
 	max-width: 100%;
+	height: auto;
 }
 
 .portfolio_content.entry-content {
 	padding: 10px;
 }
 
-.portfolio_content img{
+.portfolio_content img {
 	margin: 10px;
 }
 
@@ -1956,11 +1939,11 @@ aside ul ul {
 	background-color: #F5F6F6;
 }
 
-.single-portfolio .lable, 
-.tax-portfolio_technologies .lable, 
+.single-portfolio .lable,
+.tax-portfolio_technologies .lable,
 .portfolio_content .lable {
-	font-weight: 900 !important;
 	color: #444445;
+	font-weight: 900 !important;
 }
 
 .portfolio_short_content {
@@ -1977,36 +1960,36 @@ aside ul ul {
 }
 
 .portfolio_content .entry_footer {
-	margin-left: 10px;
 	margin-right: 10px;
+	margin-left: 10px;
 }
 
 .portfolio_terms {
-	font-family: 'open_sansregular', sans-serif;
+	margin-top: 10px;
+	color: #444445;
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
-	color: #444445;
-	margin-top: 10px;
+	font-family: 'open_sansregular', sans-serif;
 }
 
 .portfolio_terms a {
 	color: #b5b5b5;
 }
 
-.portfolio_terms  a:hover {
+.portfolio_terms a:hover {
 	color: #e52d25;
 }
 
 /*= Quotes and tips plugin =*/
 
 #quotes_box_and_tips h3 {
-	font: 900 22px 'open_sanssemibold_italic';
-	letter-spacing: 0px;
 	word-spacing: 1px;
+	letter-spacing: 0;
+	font: 900 22px 'open_sanssemibold_italic';
 }
 
 #quotes_box_and_tips p {
-	font: 400 15px 'open_sansregular', sans-serif;
 	word-spacing: -1px;
+	font: 400 15px 'open_sansregular', sans-serif;
 }

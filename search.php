@@ -1,8 +1,9 @@
-<?php /**
+<?php
+/**
  * The template for displaying Search Results pages.
  *
  * @subpackage Cafe
- * @since Cafe 1.0
+ * @since      Cafe 1.0
  */
 get_header(); ?>
 	<div class="cafe-main">
@@ -12,14 +13,14 @@ get_header(); ?>
 			</header>
 		</article>
 		<?php if ( have_posts() ) :
-			while ( have_posts() ) : 
-				the_post(); 
+			while ( have_posts() ) :
+				the_post();
 				get_template_part( 'content', get_post_format() );
 			endwhile;
 			do_action( 'cafe_page_nav' );
-		else : 
+		else :
 			get_template_part( 'content', 'none' );
 		endif; ?>
 	</div> <!-- END OF div.cafe-main -->
 <?php get_sidebar();
-get_footer(); ?>
+get_footer();
