@@ -12,9 +12,11 @@ if ( post_password_required() ) :
 	return;
 endif; ?>
 <article class="comments cafe-entry ">
-	<?php if ( have_comments() ) : ?>
+	<?php if ( have_comments() && comments_open() ) : ?>
 		<header>
-			<h2 id="cafe-comments-header"><?php printf( _nx( __( 'One Response to', 'cafe' ) . '&nbsp;%2$s', '%1$s&nbsp;' . __( 'responses to', 'cafe' ) . '&nbsp;%2$s', get_comments_number(), 'cafe' ), number_format_i18n( get_comments_number() ), '&#8220;' . get_the_title() . '&#8221;' ); ?></h2>
+			<h2 id="cafe-comments-header">
+				<?php printf( _n( 'One Response to &#8220;%2$s&#8221;', '%1$s responses to &#8220;%2$s&#8221;', get_comments_number(), 'cafe' ), number_format_i18n( get_comments_number() ), get_the_title() ); ?>
+			</h2>
 		</header>
 		<div class="comments-nav cafe-nav-link">
 			<div class="alignleft">

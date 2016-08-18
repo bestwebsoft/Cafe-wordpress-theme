@@ -1,208 +1,216 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Cafe\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-06-20 17:46+0300\n"
+"Project-Id-Version: Cafe v1.7\n"
+"Report-Msgid-Bugs-To: Translator Name <translations@example.com>\n"
+"POT-Creation-Date: 2016-08-18 18:02+0300\n"
 "PO-Revision-Date: \n"
-"Last-Translator: the BestWebSoft team <info@bestwebsoft.com>\n"
-"Language-Team: BestWebSoft <info@bestwebsoft.com>\n"
-"Language: ru_UA\n"
+"Last-Translator: \n"
+"Language-Team: BestWebSoft <wp_theme@bestwebsoft.com>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: utf-8\n"
-"X-Poedit-KeywordsList: __;_e;_n;_x\n"
-"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Textdomain-Support: yesX-Generator: Poedit 1.6.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;"
+"_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
 "X-Generator: Poedit 1.8.4\n"
 "X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: ..\n"
 
-#: ../404.php:13
+#: 404.php:13
 msgid "Sorry, Page not found."
 msgstr "Извините, страница не найдена."
 
-#: ../404.php:17 ../content-none.php:15
+#: 404.php:17 content-none.php:15
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск сможет помочь."
 
-#: ../comments.php:17
-msgid "One Response to"
-msgstr "Один ответ на"
+#: comments.php:18
+#, php-format
+msgid "One Response to &#8220;%2$s&#8221;"
+msgid_plural "%1$s responses to &#8220;%2$s&#8221;"
+msgstr[0] "%1$s комментарий к &#8220;%2$s&#8221;"
+msgstr[1] "%1$s комментария к &#8220;%2$s&#8221;"
+msgstr[2] "%1$s комментариев к &#8220;%2$s&#8221;"
 
-#: ../comments.php:17
-msgid "responses to"
-msgstr "ответа(ов) на"
-
-#: ../comments.php:21 ../comments.php:31
+#: comments.php:23 comments.php:33
 msgid "Previous Comments"
 msgstr "Предыдущие комментарии"
 
-#: ../comments.php:23 ../comments.php:33
+#: comments.php:25 comments.php:35
 msgid "Next Comments"
 msgstr "Следующие комментарии"
 
-#: ../comments.php:39
+#: comments.php:41
 msgid "Comments are closed."
 msgstr "Комментарии закрыты."
 
-#: ../content-none.php:11
+#: content-none.php:11
 msgid "Nothing Found"
 msgstr "Ничего не найдено"
 
-#: ../content.php:30 ../image.php:18
+#: content.php:30 image.php:18
 msgid "Posted on"
 msgstr "Опубликовано"
 
-#: ../content.php:62 ../image.php:87
+#: content.php:62 image.php:87
 msgid "Pages:"
 msgstr "Страницы:"
 
-#: ../footer.php:20
+#: footer.php:20
 msgid "archives"
 msgstr "архивы"
 
-#: ../footer.php:26 ../sidebar.php:33
+#: footer.php:26
 msgid "recent comments"
 msgstr "последние комментарии"
 
-#: ../footer.php:46 ../functions.php:230 ../sidebar.php:46
+#: footer.php:46 functions.php:230
 msgid "on"
 msgstr "на"
 
-#: ../footer.php:53 ../sidebar.php:21
+#: footer.php:53
 msgid "recent posts"
 msgstr "последние посты"
 
-#: ../footer.php:60 ../functions.php:326
+#: footer.php:60 functions.php:326
 msgid "posted by"
 msgstr "опубликовано автором"
 
-#: ../footer.php:60 ../functions.php:327
+#: footer.php:60 functions.php:327
 msgid "in"
 msgstr "в"
 
-#: ../footer.php:67
+#: footer.php:67
 msgid "menu"
 msgstr "меню"
 
-#: ../footer.php:78
+#: footer.php:78
 msgid "Designed with love by"
 msgstr "Разработано с любовью командой"
 
-#: ../functions.php:81
+#: functions.php:81
 msgid "Primary menu in header"
 msgstr "Основное меню в заголовке сайта"
 
-#: ../functions.php:82
+#: functions.php:82
 msgid "Secondary menu in footer"
 msgstr "Дополнительное меню в подвале сайта (футере)"
 
-#: ../functions.php:137
+#: functions.php:137
 msgid "Choose file..."
 msgstr "Выберите файл..."
 
-#: ../functions.php:138
+#: functions.php:138
 msgid "File is not selected."
 msgstr "Файл не выбран."
 
-#: ../functions.php:153
+#: functions.php:153
 msgid "Your site&#8217;s most recent comments with excerpts."
 msgstr "Последние комментарии на Вашем сайте с выдержкой."
 
-#: ../functions.php:155
+#: functions.php:155
 msgid "Recent Comments with excerpt"
 msgstr "Последние комментарии с выдержкой."
 
-#: ../functions.php:201
+#: functions.php:201
 msgid "Recent Comments"
 msgstr "Последние комментарии"
 
-#: ../functions.php:261 ../functions.php:368
+#: functions.php:261 functions.php:368
 msgid "Title:"
 msgstr "Заголовок:"
 
-#: ../functions.php:265
+#: functions.php:265
 msgid "Number of comments to show:"
 msgstr "Выводить комментариев:"
 
-#: ../functions.php:278
+#: functions.php:278
 msgid "Your site&#8217;s most recent posts with author and category."
 msgstr "Последние посты на Вашем сайте с информацией об авторе и категории."
 
-#: ../functions.php:280
+#: functions.php:280
 msgid "Recent Posts (author and category)"
 msgstr "Последние посты (автор и категория)"
 
-#: ../functions.php:303
+#: functions.php:303
 msgid "Recent Posts"
 msgstr "Последние посты"
 
-#: ../functions.php:372
+#: functions.php:372
 msgid "Number of posts to show:"
 msgstr "Выводить постов:"
 
-#: ../functions.php:377
+#: functions.php:377
 msgid "Display post date?"
 msgstr "Отображать дату поста?"
 
-#: ../functions.php:391
+#: functions.php:391
 msgid "Main Widget Area"
 msgstr "Основная область виджетов"
 
-#: ../functions.php:393
+#: functions.php:393
 msgid "Appears on posts and pages in the sidebar."
 msgstr "Отображается на страницах и постах в сайдбаре."
 
-#: ../functions.php:401
+#: functions.php:401
 msgid "Secondary Widget Area"
 msgstr "Дополнительная область виджетов"
 
-#: ../functions.php:403
+#: functions.php:403
 msgid "Appears in the footer section of the site."
 msgstr "Отображается в области подвала сайта."
 
-#: ../functions.php:440
+#: functions.php:440
 msgid "Older posts"
 msgstr "Предыдущие посты"
 
-#: ../functions.php:441
+#: functions.php:441
 msgid "Newer posts"
 msgstr "Новые посты"
 
-#: ../functions.php:457
+#: functions.php:457
 msgid "Category:"
 msgstr "Категория:"
 
-#: ../functions.php:464
+#: functions.php:464
 msgid "Tag: "
 msgstr "Тег:"
 
-#: ../functions.php:468
+#: functions.php:468
 msgid "Archive for:"
 msgstr "Архив за:"
 
-#: ../functions.php:483
+#: functions.php:483
 msgid "Page not found"
 msgstr "Страница не найдена"
 
-#: ../image.php:95
+#: image.php:95
 msgid "Previous image"
 msgstr "Предыдущее изображение"
 
-#: ../image.php:97
+#: image.php:97
 msgid "Next image"
 msgstr "Следующее изображение"
 
-#: ../search.php:12
+#: search.php:12
 msgid "Search Results for:"
 msgstr "Результаты поиска для:"
 
-#: ../searchform.php:9
+#: searchform.php:9
 msgid "Enter your searchword here"
 msgstr "Что нужно найти?"
+
+#~ msgid "responses to"
+#~ msgstr "ответа(ов) на"
 
 #~ msgid "Daily Archives:"
 #~ msgstr "Архивы за день:"

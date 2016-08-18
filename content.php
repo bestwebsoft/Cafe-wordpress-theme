@@ -10,15 +10,15 @@
 <article <?php post_class() ?> id="post-<?php the_ID(); ?>">
 	<header class="post-heading-section">
 		<section class="entry-title-and-img">
-			<div class="
-			<?php if ( has_post_thumbnail() ) : /* post with thumbnail */ ?>
-				cafe-black-box-with-thumbnail
-			<?php else : ?>
-				cafe-black-box-no-thumbnail
-			<?php endif;
-			if ( ( has_post_thumbnail() && ( has_excerpt() ) ) || ( has_post_thumbnail() && '' != $post->post_content && ( 'gallery' != get_post_format() ) && 'image' != get_post_format() ) ) : ?>
-				 cafe-black-box-has-excerpt
-			<?php endif; ?> ">
+			<?php if ( has_post_thumbnail() ) : /* post with thumbnail */
+				$cafe_class = 'cafe-black-box-with-thumbnail';
+			else :
+				$cafe_class = 'cafe-black-box-no-thumbnail';
+			endif;
+			if ( ( has_post_thumbnail() && ( has_excerpt() ) ) || ( has_post_thumbnail() && '' != $post->post_content && ( 'gallery' != get_post_format() ) && 'image' != get_post_format() ) ) :
+				$cafe_class .= ' cafe-black-box-has-excerpt';
+			endif; ?>
+			<div class="<?php echo $cafe_class; ?>">;
 				<h1 class="cafe-post-title">
 					<?php if ( ! is_singular() ) : ?>
 						<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
@@ -29,8 +29,8 @@
 				<h2 class="cafe-post-metadata">
 					<span><?php _e( 'Posted on', 'cafe' ); ?></span>
 				<span class="cafe-post-date">
-					<?php if ( ! is_page() ) : ?>
-						<a href="<?php the_permalink(); ?>"><?php printf( date_i18n( get_option( 'date_format' ), strtotime( $post->post_date ) ) ); ?></a>
+					<?php if ( ! is_singular() ) : ?>
+						<a href="<?php the_permalink(); ?>"><?php echo date_i18n( get_option( 'date_format' ), strtotime( $post->post_date ) ); ?></a>
 					<?php else :
 						echo date_i18n( get_option( 'date_format' ), strtotime( $post->post_date ) );
 					endif; ?>
